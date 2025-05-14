@@ -1,0 +1,63 @@
+Ödev Görevleri
+1. Toplam Hesap (total_bill) ve Bahşiş (tip) Arasındaki İlişki
+Scatter Plot kullanarak toplam hesap ile bahşiş arasındaki ilişkiyi görselleştirin.
+Renkleri sigara içen/ içmeyen (smoker) değişkenine göre ayırın.(opsiyonel)
+Grafikte eksen isimlerini ve başlığını eklemeyi unutmayın.
+2. Günlere Göre Toplam Hesap Dağılımı
+Boxplot kullanarak günlere (day) göre toplam hesap tutarını analiz edin.
+Her gün için medyan ve aykırı değerleri inceleyin.
+Yorumlayın: Hangi günlerde toplam hesap daha yüksek?
+3. Masa Büyüklüğüne Göre Bahşiş Oranları
+Yeni bir sütun ekleyin:
+
+tip_rate = (tip \ total_bill)*100
+
+Barplot kullanarak masa büyüklüğüne (size) göre ortalama bahşiş oranını görselleştirin.
+
+Grafiği yorumlayın: Hangi masa büyüklüklerinde bahşiş oranı daha yüksek?
+
+4. Günün Zamanına Göre Bahşiş Dağılımı
+Histogram veya KDE grafiği kullanarak Lunch ve Dinner zamanlarındaki bahşiş dağılımını karşılaştırın.
+Yorumlayın: Hangi zaman diliminde bahşişler daha fazla?
+Korelasyon Analizi
+Sayısal değişkenler arasındaki korelasyonu incelemek için bir Heatmap oluşturun.
+En yüksek korelasyonlu değişken çiftlerini yorumlayın.
+Teslim Formatı
+Yaptığınız tüm analizleri ve grafikleri içeren bir Notebook dosyası oluşturun.
+Her grafikten sonra kısa bir yorum ekleyin: Gözlemlediğiniz sonuçları açıklayın.
+Not: Eğer Seaborn yüklü değilse aşağıdaki komut ile yükleyebilirsiniz:
+
+!pip install seaborn
+Başarılar!
+
+Veri Görselleştirme Quizi
+1. Hangi grafik türü, iki sürekli değişken arasındaki ilişkiyi göstermek için en uygundur?
+A) Pasta Grafiği
+B) Çizgi Grafiği
+C) Saçılım (Scatter) Grafiği
+D) Çubuk Grafiği
+
+2. Hangi kütüphane, Python’da veri görselleştirme için kullanılan en popüler kütüphanelerden biridir?
+A) NumPy
+B) Pandas
+C) Matplotlib
+D) Scikit-learn
+
+3. Histogram grafiği hangi tür veriyi görselleştirmek için kullanılır?
+A) Kategorik veriler
+B) Sürekli sayısal veriler
+C) Zamana bağlı veriler
+D) Coğrafi veriler
+
+4. Aşağıdakilerden hangisi görselleştirme yaparken dikkat edilmesi gereken önemli noktalardan biridir?
+A) Grafiğin rengini mümkün olduğunca karmaşık yapmak
+B) Etiket ve başlıkları eksik bırakmak
+C) Grafik türünü verinin türüne uygun seçmek
+D) Grafikteki eksenleri rastgele ölçeklendirmek
+
+5. Zaman serisi verilerini en iyi şekilde görselleştirmek için hangi grafik türü daha uygundur?
+A) Çubuk Grafiği
+B) Çizgi Grafiği
+C) Pasta Grafiği
+D) Kutup (Polar) Grafiği
+
